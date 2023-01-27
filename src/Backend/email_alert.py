@@ -3,6 +3,8 @@ import matplotlib.pyplot as plt
 import time
 import yfinance as yf
 
+from flask import Flask
+
 # Automating Emails
 import smtplib
 import ssl
