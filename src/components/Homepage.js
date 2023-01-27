@@ -29,6 +29,9 @@ function HomePage() {
                 <img src={pImage} className="callToAction-image" alt="Predictive Analysis"/>
             </div>
         </div>
+        <div className="services-container">
+            <h1 className="services-header"><span className="green">5-10X Your Portfolio</span> With These Simple Tools</h1>
+        </div>
     </div>
     );
 }

@@ -170,4 +170,16 @@
     margin-top: 5vh;
 }
 
+.services-container {
+    margin: auto;
+    margin-top: 17vh;
+    width: 50vw;
+    height: 10vh;
+}
+
+.services-header {
+    font-size: 2vw;
+    font-weight: 600;
+}
+
 
