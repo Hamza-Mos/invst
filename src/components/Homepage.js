@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from "react-router-dom";
 import pImage from './predAnalysis.svg';
 import './styles.css';
 
@@ -14,7 +15,7 @@ function HomePage() {
                 <span>About Us</span>
             </div>
             <div className="nav-button-container">
-                <button className="sign-up">Login<span class="material-symbols-outlined green">login</span></button>
+                <Link to="/login"><button className="sign-up">Login<span class="material-symbols-outlined green">login</span></button></Link>
                 <button className="log-in">Start Free</button>
             </div>
         </div>
