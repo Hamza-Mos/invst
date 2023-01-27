@@ -2,6 +2,7 @@ import React from 'react';
 import { Link } from "react-router-dom";
 import pImage from './predAnalysis.svg';
 import './styles.css';
+import Features from './Features';
 
 function HomePage() {
     return (
@@ -32,6 +33,9 @@ function HomePage() {
         <div className="services-container">
             <h1 className="services-header"><span className="green">5-10X Your Portfolio</span> With These Simple Tools</h1>
         </div>
+
+        <Features />
+
     </div>
     );
 }
