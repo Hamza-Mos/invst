@@ -1,5 +1,8 @@
 {
   "projects": {
-    "default": "invest-b61ac"
-  }
+    "default": "invest-b61ac",
+    "investor": "investor-6f199"
+  },
+  "targets": {},
+  "etags": {}
 }
