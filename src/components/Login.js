@@ -1,5 +1,4 @@
 import React from 'react';
-import SignUpScreen from './SignUpScreen';
 import './Login.css';
 
 // login-container
