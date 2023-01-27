@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Sofia+Sans:wght@200;300;400;500;600;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: 'Montserrat';
+    background-color: #E5E7E6;
+    color: #4B4B43;
+}
+
+.homepage-container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1vh;
+}
+
+/*Navbar Styles*/
+.navbar-container {
+    display: flex;
+    margin: 0 5vw;
+    margin-top: 3vh;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    font-family: 'Sofia Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 2.5vw;
+    text-shadow: 0px 7px 10px rgba(0, 0, 0, 0.25);
+    user-select: none;
+    cursor: pointer;
+}
+
+.green {
+    background-color: transparent !important;
+    font-family: inherit;
+    display: inline-block;
+    font-weight: inherit;
+    font-size: inherit;
+    color:  #5CC0A2;
+}
+
+.nav-options-container {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15pt;
+    display: flex;
+    width: 30vw;
+    justify-content: space-evenly;
+    cursor: pointer;
+}
+
+
+.nav-button-container {
+    display: flex;
+    width: 18.5vw;
+    justify-content: space-between;
+}
+
+.nav-button-container button {
+    width: 9vw;
+    height: 5vh;
+    font-weight: 700;
+    font-size: 13pt;
+    outline: none;
+    cursor: pointer;
+}
+
+.sign-up {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border: 2px solid #9bd2c1;
+    border-radius: 25px 5px 5px 25px;
+    color: #5CC0A2;
+    padding: 0 10%;
+    padding-left: 15%;
+    transition: 0.3s ease-in-out;
+}
+
+.sign-up:hover {
+    border: 2px solid #5CC0A2;
+}
+
+.log-in {
+    height: 4.7vh !important;
+    border: none !important;
+    background-color: #5CC0A2;
+    border-radius: 5px 25px 25px 5px;
+    box-shadow: 0px 0.3vh #54b396;
+    color: #E5E7E6;
+    padding-right: 3%;
+    padding-top: 0.25vh;
+    transition: 0.2s ease-in-out;
+}
+
+.log-in:hover {
+    margin-top: -4px;
+    box-shadow: 0px 0.3vh #54b396, 0px 3px 10px rgba(0, 0, 0, 0.2);
+}
+/*Home Body*/
+
+.callToAction-container {
+    display: flex;
+    margin: auto;
+    margin-top: 12.5vh;
+    width: 66vw;
+    justify-content: space-between;
+}
+.callToAction-text {
+    width: 36vw;
+}
+
+.callToAction-header {
+    font-weight: 600;
+    font-size: 2.24vw;
+}
+.callToAction-p {
+    margin-top: 2vh;
+    font-weight: 500;
+    font-size: 1.4vw;
+    text-align: justify;
+    padding-right: 3vw;
+    line-height: 35px;
+}
+
+.callToAction-button {
+    margin: 0 9vw;
+    width: 15vw;
+    height: 5vh;
+    border: none;
+    color: #E5E7E6;
+    font-size: 18pt;
+    font-weight: 600;
+    background-color: #64d0af;
+    box-shadow: 0px 0.3vh #5cc2a3;
+    border-radius: 25px;
+    outline: none;
+    margin-top: 5vh;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+
+.callToAction-button:hover {
+    box-shadow: 0px 0.3vh #54b396, 0px 0px 15px #64d0b0e7;
+}
+
+.callToAction-image {
+    height: 45vh;
+}
+
+.callToAction-image-container {
+    height: 50vh;
+    width: 23vw;
+    border: 2px solid #4B4B43;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.15);
+    border-radius: 20px;
+    background-color: #E0E0E0;
+    display: flex;
+    justify-content: center;
+}
+
+.callToAction-image {
+    background-color: transparent !important;
+    height: 45vh;
+    margin-top: 5vh;
+}
+
+
