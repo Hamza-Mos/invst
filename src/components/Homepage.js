@@ -5,7 +5,7 @@ import './styles.css';
 import Features from './Features';
 
 function HomePage() {
-    const [scrollActive, setScrollActive] = useState('false');
+    const [scrollActive, setScrollActive] = useState(false);
     function isScroll() {
         if (window.scrollY > 0) setScrollActive(true);
         else setScrollActive(false);
