@@ -22,8 +22,8 @@ function HomePage() {
                 <span>About Us</span>
             </div>
             <div className="nav-button-container">
-                <Link to="/login"><button className="sign-up">Login<span class="material-symbols-outlined green">login</span></button></Link>
-                <button className="log-in">Start Free</button>
+                <Link to="/login"><button className="log-in">Login<span class="material-symbols-outlined green">login</span></button></Link>
+                <Link to="/SignUpScreen"><button className="sign-up">Start Free</button></Link>
             </div>
         </div>
         <div className="callToAction-container">

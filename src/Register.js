@@ -1,4 +1,4 @@
-import {auth} from './firebase'
+/*import {auth} from './firebase'
 import {createUserWithEmailAndPassword} from 'firebase/auth'
 
 const validatePassword = () => 
@@ -32,3 +32,4 @@ const register = e => {
     setConfirmPassword('')
   }
 
+*/
