@@ -67,7 +67,6 @@ function Market() {
             providing you with the best stocks to invest in. Click the button
             below to get started with us right away!
           </p>
-          <button className="callToAction-button">Start Now</button>
         </div>
       </div>
     </div>
