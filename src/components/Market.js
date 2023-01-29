@@ -1,6 +1,5 @@
 import { React, useState } from "react";
 import { Link } from "react-router-dom";
-import MarketSearch from "./MarketSearch";
 
 function Market() {
   const [scrollActive, setScrollActive] = useState(false);
@@ -40,8 +39,14 @@ function Market() {
         </div>
       </div>
 
+      <div className="services-container">
+        <h1 className="services-header">
+          <span className="green">5-10X Your Portfolio</span> With These Simple
+          Tools
+        </h1>
+      </div>
 
-      <div className="searchbar">
+      <div className="market-search">
         <h1>Search for a Entity</h1>
         <div className="stock_input">
           <form>
@@ -50,7 +55,22 @@ function Market() {
           <button>Search</button>
         </div>
       </div>
-      
+
+      <div className="callToAction-container">
+        <div className="callToAction-text">
+          <h1 className="callToAction-header">
+            GET A LOOK INTO THE FUTURE
+            <br /> WITH OUR <span className="green">PREDICTIVE</span>{" "}
+            <span className="green">ANALYSIS MODEL.</span>
+          </h1>
+          <p className="callToAction-p">
+            We can help you get a heard start with your investments goals by
+            providing you with the best stocks to invest in. Click the button
+            below to get started with us right away!
+          </p>
+          <button className="callToAction-button">Start Now</button>
+        </div>
+      </div>
     </div>
   );
 }

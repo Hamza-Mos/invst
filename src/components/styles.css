@@ -7,6 +7,10 @@
     color: #4B4B43;
 }
 
+.app {
+
+}
+
 .homepage-container {
     background-color: #E5E7E6;
     display: flex;
@@ -214,7 +218,14 @@
 
 
 
-.searchbar {
-    padding: 6rem;
+.market-search{
+    padding: 2 rem;
+    text-align: center;
+}
+
+.market-container {
+    background-color: #E5E7E6;
+    display: flex;
+    flex-direction: column;
 }
 
