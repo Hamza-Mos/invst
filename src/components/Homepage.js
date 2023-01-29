@@ -18,7 +18,7 @@ function HomePage() {
             <h1 className="logo">{'</INV'}<span className="green">$</span>{'T/>'}</h1>
             <div className="nav-options-container">
                 <span>Services</span>
-                <span>FAQ</span>
+                <span>Market Overview</span>
                 <span>About Us</span>
             </div>
             <div className="nav-button-container">

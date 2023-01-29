@@ -22,7 +22,7 @@
     position: fixed;
     top: 0;
     width: 100vw;
-    padding: 2vh;
+    padding: 3vh;
     justify-content: space-between; 
     align-items: center;
     height: 4vh;
@@ -59,7 +59,6 @@
 }
 
 .nav-options-container {
-    /*margin-left: 4rem;*/
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 600;
@@ -205,5 +204,10 @@
 
 .button-alert-bot {
     margin-left: 10rem;
+}
+
+.features_page {
+    background-color: #5CC0A2;
+    
 }
 

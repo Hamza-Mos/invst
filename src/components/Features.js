@@ -2,9 +2,9 @@ import React from 'react'
 
 function Features() {
   return (
-    <div>
+    <div className="features_page">
       <div className="button-alert-bot">
-        <h1>Stock Price Alarm Bot</h1>
+        <h2>Stock Price Alarm Bot</h2>
         <button>Try It Out</button>
       </div>
 
