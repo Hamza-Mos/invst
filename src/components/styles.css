@@ -219,7 +219,7 @@
 
 
 .market-search{
-    padding: 2 rem;
+    padding: 2rem;
     text-align: center;
 }
 
@@ -229,3 +229,12 @@
     flex-direction: column;
 }
 
+.stock_input>form>input {
+    margin-top: 2rem;
+    padding: 10px;
+    outline-width: 0;
+    height: 30px;
+    width: 30%;
+    border: none;
+    max-width: 600px;
+}

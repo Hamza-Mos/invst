@@ -41,8 +41,7 @@ function Market() {
 
       <div className="services-container">
         <h1 className="services-header">
-          <span className="green">5-10X Your Portfolio</span> With These Simple
-          Tools
+          <span className="green">Research the Market</span> To Maximize Returns
         </h1>
       </div>
 
@@ -52,7 +51,7 @@ function Market() {
           <form>
             <input type="ticker" placeholder="Search for a Stock" />
           </form>
-          <button>Search</button>
+          <button className="callToAction-button">Search</button>
         </div>
       </div>
 
