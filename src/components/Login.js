@@ -40,6 +40,7 @@ function LogIn() {
               <div className="loginScreen_input">
                 <form>
                   <input type="email" placeholder="Email Address" />
+                
                 </form>
                 <button
                   className="loginScreen_getStarted"
