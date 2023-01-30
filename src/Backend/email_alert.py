@@ -58,7 +58,7 @@ def members():
     target_sell_price = request.json['target_sell_price']
     email = request.json['email']
 
-    return ticker
+    return ticker # Change this to the fucntions we are trying to return
 
 if __name__ == "__main__":
     app.run(debug=True)
